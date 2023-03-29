@@ -1,11 +1,11 @@
 locals {
-  vpc_id              = "vpc-0e392657d015ead7e"
-  private_a_subnet_id = "subnet-05904f2c6ff41f9ac"
-  private_b_subnet_id = "subnet-0d2855afeadef15c4"
-  public_a_subnet_id  = "subnet-0bc7b3f65a94185f7"
-  public_b_subnet_id  = "subnet-0f284c889962e924f"
+  vpc_id              = "vpc-0da196fa62e42dd26"
+  private_a_subnet_id = "CIaCS-subnet-public1-ap-south-1a"
+  private_b_subnet_id = "CIaCS-subnet-private1-ap-south-1a"
+  public_a_subnet_id  = "CIaCS-subnet-public2-ap-south-1b"
+  public_b_subnet_id  = "CIaCS-subnet-private2-ap-south-1b"
 
-  ubuntu_ami = "ami-0f8ca728008ff5af4"
+  ubuntu_ami = "ami-02eb7a4783e7e9317"
 
   traffic_dist_map = {
     blue = {
